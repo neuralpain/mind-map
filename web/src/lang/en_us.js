@@ -1,3 +1,10 @@
+/**
+ * @Author: 王林
+ * @Date: 2022-10-28
+ * @Editors: neuralpain
+ * @LastEditedBy: neuralpain
+ * @LastEditTime: 2024-07-30 16:22:13
+ */
 export default {
   baseStyle: {
     title: 'BaseStyle',
@@ -12,7 +19,7 @@ export default {
     style: 'Style',
     lineRadius: 'Radius',
     lineOfOutline: 'Line of outline',
-    showArrow: 'Is show arrow',
+    showArrow: 'Show arrow',
     nodePadding: 'Node padding',
     nodeMargin: 'Node margin',
     horizontal: 'Horizontal',
@@ -21,15 +28,15 @@ export default {
     maximumHeight: 'Max height',
     icon: 'Icon',
     size: 'Size',
-    level2Node: 'Level2 node',
-    belowLevel2Node: 'Below level2 node',
+    level2Node: 'Level 2 node',
+    belowLevel2Node: 'Below level 2 node',
     nodeBorderType: 'Node border style',
     nodeUseLineStyle: 'Use only has bottom border style',
     otherConfig: 'Other config',
-    enableFreeDrag: 'Enable node free drag(Beta)',
+    enableFreeDrag: 'Enable node free drag (Beta)',
     openPerformance: 'Enable performance mode',
     watermark: 'Watermark',
-    showWatermark: 'Is show watermark',
+    showWatermark: 'Show watermark',
     onlyExport: 'Only export',
     watermarkDefaultText: 'Watermark text',
     watermarkText: 'Watermark text',
@@ -66,11 +73,11 @@ export default {
     center: 'Center',
     edge: 'Edge',
     rainbowLines: 'Rainbow lines',
-    notUseRainbowLines: 'Not use rainbow lines',
+    notUseRainbowLines: 'None',
     outerFramePadding: 'Outer frame padding'
   },
   color: {
-    moreColor: 'More color'
+    moreColor: 'More colors'
   },
   contextmenu: {
     insertSiblingNode: 'Insert sibling node',
@@ -89,12 +96,12 @@ export default {
     unExpandAll: 'Un expand all',
     expandTo: 'Expand to',
     arrangeLayout: 'Arrange layout',
-    level1: 'Level1',
-    level2: 'Level2',
-    level3: 'Level3',
-    level4: 'Level4',
-    level5: 'Level5',
-    level6: 'Level6',
+    level1: 'Level 1',
+    level2: 'Level 2',
+    level3: 'Level 3',
+    level4: 'Level 4',
+    level5: 'Level 5',
+    level6: 'Level 6',
     zenMode: 'Zen mode',
     fitCanvas: 'Fit canvas',
     removeImage: 'Remove image',
@@ -102,13 +109,13 @@ export default {
     removeNote: 'Remove note',
     removeCustomStyles: 'Remove custom styles',
     removeAllNodeCustomStyles: 'Remove all node custom styles',
-    exportNodeToPng: 'Export node to png',
-    copyToClipboard: 'Copy to clipboard',
+    exportNodeToPng: 'Export node to PNG',
+    copyToClipboard: 'Copy to Clipboard',
     copyToSmm: 'SMM',
     copyToJson: 'JSON',
     copyToMarkdown: 'Markdown',
-    copyToTxt: 'Txt',
-    copyToPng: 'Png',
+    copyToTxt: 'TXT',
+    copyToPng: 'PNG',
     copySuccess: 'Copy success',
     copyFail: 'Copy fail'
   },
@@ -127,8 +134,8 @@ export default {
     dedicatedFile: 'Dedicated file',
     jsonFile: 'json file',
     imageFile: 'Image file',
-    svgFile: 'svg file',
-    pdfFile: 'pdf file',
+    svgFile: 'SVG',
+    pdfFile: 'PDF',
     markdownFile: 'markdown file',
     tips: 'tips: .smm and .json file can be import',
     isTransparent: 'Background is transparent',
@@ -168,14 +175,14 @@ export default {
   navigatorToolbar: {
     openMiniMap: 'Open mini map',
     closeMiniMap: 'Close mini map',
-    readonly: 'Change to eadonly',
-    edit: 'Change to edit',
+    readonly: 'Make read-only',
+    edit: 'Allow editing',
     backToRoot: 'Back to root node',
     changeSourceCodeEdit: 'Switch to source code editing mode'
   },
   nodeHyperlink: {
     title: 'Link',
-    link: 'Href',
+    link: 'URL',
     name: 'Name'
   },
   nodeIcon: {
@@ -203,8 +210,8 @@ export default {
   shortcutKey: {
     title: 'Shortcut key'
   },
-  strusture: {
-    title: 'Strusture'
+  structure: {
+    title: 'Structure'
   },
   style: {
     title: 'Node style',
@@ -235,7 +242,7 @@ export default {
     gradientStyle: 'Gradient',
     startColor: 'Start',
     endColor: 'End',
-    arrowDir: 'Arrow dir',
+    arrowDir: 'Arrow direction',
     arrowDirStart: 'Start',
     arrowDirEnd: 'End'
   },
@@ -265,7 +272,7 @@ export default {
     displayOutline: 'Display outline',
     baseStyle: 'Base style',
     theme: 'Theme',
-    strusture: 'Strusture',
+    structure: 'Structure',
     newFile: 'New file',
     openFile: 'Open file',
     saveAs: 'Save as',

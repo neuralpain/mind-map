@@ -1,0 +1,9 @@
+Cross-file changes:
+  - "strusture" is now "structure"
+
+
+lang docs:
+  - web/src/lang/en_us.js
+  - web/src/lang/zh_cn.js
+  - web/src/config/en.js
+  - web/src/config/zh.js

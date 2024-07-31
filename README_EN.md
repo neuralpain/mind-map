@@ -1,3 +1,10 @@
+<!--
+  Author: neuralpain
+  Date: 2024-07-30 16:00:00 16:22:13
+  LastEditors: neuralpain
+  LastEditTime: 2024-07-30 16:22:13
+-->
+
 <h1 align="center">Simple mind map</h1>
 
 [中文](./README.md)｜[English](./README_EN.md)
@@ -9,77 +16,104 @@
 [![GitHub stars](https://img.shields.io/github/stars/wanglin2/mind-map)](https://github.com/wanglin2/mind-map/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/wanglin2/mind-map)](https://github.com/wanglin2/mind-map/network/members)
 
-> 中文名：思绪思维导图。一个简单&强大的 Web 思维导图。
+> Chinese name: Mind map of Thoughts. A simple & powerful Web mind map.
 
-本项目包含两部分：
+This project consists of two parts:
 
-1.一个 js 思维导图库，不依赖任何框架，可以使用它来快速完成 Web 思维导图产品的开发。
+1. A js mind map library does not depend on any framework, and can be used to quickly complete the development of Web mind map products.
 
-开发文档：[https://wanglin2.github.io/mind-map/#/doc/zh/](https://wanglin2.github.io/mind-map/#/doc/zh/)。
+    Development documentation: https://wanglin2.github.io/mind-map/#/doc/zh/.
 
-2.一个 Web 思维导图，基于思维导图库、Vue2.x、ElementUI 开发，可以操作电脑本地文件，可以当做一个在线版思维导图应用使用，也可以自部署和二次开发。
+<!-- ! fix english here -->
 
-在线地址：[https://wanglin2.github.io/mind-map/](https://wanglin2.github.io/mind-map/)。
+2. A Web mind map, based on the mind map library, Vue2. Developed by X and ElementUI, it can operate local files on the computer, can be used as an online mind map application, and can also be self-deployed and developed for secondary use.
 
-此外也提供了客户端可供下载使用，支持`Windows`、`Mac`及`Linux`，下载地址：
+    Online address: https://wanglin2.github.io/mind-map/.
 
-Github：[releases](https://github.com/wanglin2/mind-map/releases)。百度云盘：[地址](https://pan.baidu.com/s/1huasEbKsGNH2Af68dvWiOg?pwd=3bp3)。
+In addition, a client is also provided for download, with support for Windows, Mac and Linux
 
-> 客户端版本会落后于在线版本，尝试最新功能请优先使用在线版。
+- [Github releases](https://github.com/wanglin2/mind-map/releases)
+- [Baidu Cloud Disk](https://pan.baidu.com/s/1huasEbKsGNH2Af68dvWiOg?pwd=3bp3)
 
-【云存储版本】如果你需要带后端的云存储版本，可以尝试我们开发的另一个项目[理想文档](https://github.com/wanglin2/lx-doc)。
+The client version will lag behind the online version. Please use the online version first to try the latest features.
 
-# 特性
+<!-- ! ask for clarification  -->
 
-- [x] 插件化架构，除核心功能外，其他功能作为插件提供，按需使用，减小打包体积
-- [x] 支持逻辑结构图（向左、向右逻辑结构图）、思维导图、组织结构图、目录组织图、时间轴（横向、竖向）、鱼骨图等结构
-- [x] 内置多种主题，允许高度自定义样式，支持注册新主题
-- [x] 节点内容支持文本（普通文本、富文本）、图片、图标、超链接、备注、标签、概要、数学公式
-- [x] 节点支持拖拽（拖拽移动、自由调整）、多种节点形状；支持扩展节点内容、支持使用 DDM 完全自定义节点内容
-- [x] 支持画布拖动、缩放
-- [x] 支持鼠标按键拖动选择和 Ctrl+左键两种多选节点方式
-- [x] 支持导出为`json`、`png`、`svg`、`pdf`、`markdown`、`xmind`、`txt`，支持从`json`、`xmind`、`markdown`导入
-- [x] 支持快捷键、前进后退、关联线、搜索替换、小地图、水印、滚动条、手绘风格、彩虹线条、标记、外框
-- [x] 提供丰富的配置，满足各种场景各种使用习惯
-- [x] 支持协同编辑
-- [x] 支持演示模式
+> [!NOTE]
+> ### Cloud storage version
+> If you need a cloud storage version with a backend, you can [try another project or document we developed](https://github.com/wanglin2/lx-doc).
 
-官方提供了如下插件，可根据需求按需引入（某个功能不生效大概率是因为你没有引入对应的插件），具体使用方式请查看文档：
+# Features
 
-> RichText（节点富文本插件）、Select（鼠标多选节点插件）、Drag（节点拖拽插件）、AssociativeLine（关联线插件）、Export（导出插件）、KeyboardNavigation（键盘导航插件）、MiniMap（小地图插件）、Watermark（水印插件）、TouchEvent（移动端触摸事件支持插件）、NodeImgAdjust（拖拽调整节点图片大小插件）、Search（搜索插件）、Painter（节点格式刷插件）、Scrollbar（滚动条插件）、Formula（数学公式插件）、Cooperate（协同编辑插件）、RainbowLines（彩虹线条插件）、Demonstrate（演示模式插件）、OuterFrame（外框插件）、HandDrawnLikeStyle（手绘风格插件）[收费]、Notation（节点标记插件）[收费]
+- [x] Plug-in architecture, in addition to the core functions, other functions are provided as plug-ins, which can be used on demand to reduce the packaging volume
+- [x] Support logical structure diagram (left and right logical structure diagram), mind map, organizational structure diagram, catalog organization diagram, timeline (horizontal, vertical), fishbone diagram and other structures
+- [x] Built-in multiple themes, allowing highly customized styles, and supporting registration of new themes
+- [x] Node content supports text (normal text, rich text), pictures, icons, hyperlinks, remarks, labels, summaries, mathematical formulas
+- [x] Nodes support drag and drop (drag and drop to move, free adjustment), a variety of node shapes; support expansion of node content, support the use of DDM to fully customize node content
+- [x] Support canvas dragging and zooming
+- [x] Support two multi-selection node methods: mouse button drag selection and Ctrl+left button
+- [x] Support export as JSON, PNG, SVG, PDF, Markdown, xMind, TXT, support from JSON, xMind, Markdown
+- [x] Support shortcut keys, forward and backward, association lines, search and replace, minimaps, watermarks, scroll bars, hand-painted styles, rainbow lines, markers, and frames
+- [x] Provide a wealth of configurations to meet various usage habits in various scenarios
+- [x] Support collaborative editing
+- [x] Support demo mode
 
-本项目不会实现的特性：
+The following plug-ins are officially provided, which can be introduced on demand according to demand (the high probability that a certain function will not take effect is because you have not introduced a corresponding plug-in), please check the documentation for specific usage methods:
 
-> 1.自由节点，即多个根节点；
+> - RichText (node rich text plug-in),
+> -  Select (mouse multi-select node plug-in)
+> - Drag (node drag-and-drop plug-in)
+> - AssociativeLine (association line plug-in)
+> - Export (export plug-in)
+> - KeyboardNavigation (keyboard navigation plug-in)
+> - MiniMap (small map plug-in)
+> - Watermark (watermark plug-in)
+> - TouchEvent (Mobile touch event support plug-in)
+> - NodeImgAdjust (drag and drop to adjust the size of the node image plug-in)
+> - Search (search plug-in)
+> - Painter (node format brush plug-in)
+> - Scrollbar (scroll bar plug-in)
+> - Formula (mathematical formula plug-in)
+> - Cooperate (collaborative editing plug-in)
+> - RainbowLines (Rainbow line plug-in)
+> - Demonstrate(Demo mode plug-in)
+> - OuterFrame (outer frame plug-in)
+> - HandDrawnLikeStyle (hand-painted style plug-in) [for a fee]
+> - Notation (node marker plug-in) [for a fee]
+
+> [!IMPORTANT]
+> 
+> Features that will not be implemented in this project:
+> 
+> 1. Free nodes, that is, multiple root nodes;
+> 2. Continue to add nodes after the summary node;
 >
-> 2.概要节点后面继续添加节点；
->
-> 如果你需要以上特性，那么本库可能无法满足你的需求。
+> If you need the above features, then this library may not meet your needs.
 
-# 安装
+# Install
 
 ```bash
 npm i simple-mind-map
 ```
 
-# 使用
+# Setup
 
-提供一个宽高不为 0 的容器元素：
+Provide a container element with a width and height greater than 0:
 
 ```html
 <div id="mindMapContainer"></div>
 ```
 
-另外再设置一下`css`样式：
+Set the CSS style:
 
 ```css
 #mindMapContainer * {
   margin: 0;
   padding: 0;
-}
+ }
 ```
 
-然后创建一个实例：
+Then create an instance:
 
 ```js
 import MindMap from "simple-mind-map";
@@ -88,40 +122,40 @@ const mindMap = new MindMap({
   el: document.getElementById("mindMapContainer"),
   data: {
     data: {
-      text: "根节点",
+      text: "root node",
     },
     children: [],
   },
 });
 ```
 
-即可得到一个思维导图。
+You can get a mind map.
 
-想要实现更多功能？可以查看[开发文档](https://wanglin2.github.io/mind-map/#/doc/zh/)。
+Want to achieve more functions? You can view the development documentation.
 
 # License
 
-[MIT](./LICENSE)。保留`mind-map`版权声明的情况下可随意商用。如不想保留可联系作者。
+MIT. `mind-map` It can be used commercially at will while retaining the copyright notice. If you don't want to keep it, you can contact the author.
 
-# 微信交流群
+# WeChat Exchange Group
 
-群聊人数较多，无法通过二维码入群，可以微信添加`wanglinguanfang`拉你入群。思维导图相关问题皆可在群里提问，不必私聊作者。
+There are a large number of people in the group chat, and you cannot join the group through the QR code. You can add WeChat `wanglinguanfang` to pull you into the group. Questions related to mind maps can be asked in the group, so there is no need to chat with the author privately.
 
-# star
+# Star the project
 
-如果喜欢本项目，欢迎点个 star，这对我们很重要。
+If you like this project, you are welcome to order a star, which is very important to us.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=wanglin2/mind-map&type=Date)](https://star-history.com/#wanglin2/mind-map&Date)
 
-# 关于定制
+# About customization
 
-如果你有个性化的商用定制需求，可以联系我们，我们提供付费开发服务，无论前端、后端、还是部署，都可以帮你一站式搞定。
+If you have personalized commercial customization needs, you can contact us. We provide paid development services, regardless of front-end, back-end, or deployment, we can help you get it done in one stop.
 
-# 请作者喝杯咖啡
+# Invite the author for a cup of coffee
 
-开源不易，如果本项目有帮助到你的话，可以考虑请作者喝杯咖啡，你的支持是开发者持续维护的最大动力~
+Open source is not easy. If this project is helpful to you, you can consider asking the author for a cup of coffee. Your support is the biggest motivation for developers to continue to maintain~
 
-> 推荐使用支付宝，微信获取不到头像。转账请备注【思维导图】。
+> It is recommended to use Alipay, but WeChat cannot get the avatar. Please note [Mind Map] for transfer.
 
 <p>
   <img src="./web/src/assets/img/alipay.jpg" style="width: 300px" />

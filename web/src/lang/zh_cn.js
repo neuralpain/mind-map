@@ -201,7 +201,7 @@ export default {
   shortcutKey: {
     title: '快捷键'
   },
-  strusture: {
+  structure: {
     title: '结构'
   },
   style: {
@@ -262,7 +262,7 @@ export default {
     displayOutline: '显示大纲',
     baseStyle: '基础样式',
     theme: '主题',
-    strusture: '结构',
+    structure: '结构',
     newFile: '新建',
     openFile: '打开',
     saveAs: '另存为',

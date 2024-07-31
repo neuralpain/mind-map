@@ -1,3 +1,11 @@
+/**
+ * @Author: 王林
+ * @Date: 2022-11-05
+ * @Editors: neuralpain
+ * @LastEditedBy: neuralpain
+ * @LastEditTime: 2024-07-30 16:22:13
+ */
+
 // 字体列表
 export const fontFamilyList = [
   {
@@ -61,27 +69,27 @@ export const borderDasharrayList = [
     value: 'none'
   },
   {
-    name: 'Dotted1',
+    name: 'Dotted 1',
     value: '5,5'
   },
   {
-    name: 'Dotted2',
+    name: 'Dotted 2',
     value: '10,10'
   },
   {
-    name: 'Dotted3',
+    name: 'Dotted 3',
     value: '20,10,5,5,5,10'
   },
   {
-    name: 'Dotted4',
+    name: 'Dotted 4',
     value: '5, 5, 1, 5'
   },
   {
-    name: 'Dotted5',
+    name: 'Dotted 5',
     value: '15, 10, 5, 10, 15'
   },
   {
-    name: 'Dotted6',
+    name: 'Dotted 6',
     value: '1, 5'
   }
 ]
@@ -117,7 +125,7 @@ export const rootLineKeepSameInCurveList = [
 // 图片重复方式
 export const backgroundRepeatList = [
   {
-    name: 'No repeat',
+    name: 'No-repeat',
     value: 'no-repeat'
   },
   {
@@ -125,11 +133,11 @@ export const backgroundRepeatList = [
     value: 'repeat'
   },
   {
-    name: 'Repeat-x',
+    name: 'Repeat-X',
     value: 'repeat-x'
   },
   {
-    name: 'Repeat-y',
+    name: 'Repeat-Y',
     value: 'repeat-y'
   }
 ]
@@ -141,39 +149,39 @@ export const backgroundPositionList = [
     value: '0% 0%'
   },
   {
-    name: 'Left top',
+    name: 'Top-Left',
     value: 'left top'
   },
   {
-    name: 'Left center',
+    name: 'Center-Left',
     value: 'left center'
   },
   {
-    name: 'Left bottom',
+    name: 'Bottom-Left',
     value: 'left bottom'
   },
   {
-    name: 'Right top',
+    name: 'Top-Right',
     value: 'right top'
   },
   {
-    name: 'Right center',
+    name: 'Center-Right',
     value: 'right center'
   },
   {
-    name: 'Right bottom',
+    name: 'Bottom-Right',
     value: 'right bottom'
   },
   {
-    name: 'Center top',
+    name: 'Top-Center',
     value: 'center top'
   },
   {
-    name: 'Center center',
+    name: 'Center',
     value: 'center center'
   },
   {
-    name: 'Center bottom',
+    name: 'Bottom-Center',
     value: 'center bottom'
   }
 ]
@@ -206,7 +214,7 @@ export const shortcutKeyList = [
     list: [
       {
         icon: 'icontianjiazijiedian',
-        name: 'Inert child node',
+        name: 'Insert child node',
         value: 'Tab | Insert'
       },
       {
@@ -291,7 +299,7 @@ export const shortcutKeyList = [
       },
       {
         icon: 'iconquanxuan',
-        name: 'Multiple choice',
+        name: 'Multi-Select',
         value: `Right click / ${ctrl} + Left click`
       },
       {
@@ -301,7 +309,7 @@ export const shortcutKeyList = [
       },
       {
         icon: 'iconsousuo',
-        name: 'Search and Replace',
+        name: 'Find and Replace',
         value: `${ctrl} + F`
       }
     ]
@@ -311,17 +319,17 @@ export const shortcutKeyList = [
     list: [
       {
         icon: 'iconfangda',
-        name: 'Zoom in',
+        name: 'Zoom In',
         value: `${ctrl} + +`
       },
       {
         icon: 'iconsuoxiao',
-        name: 'Zoom out',
+        name: 'Zoom Out',
         value: `${ctrl} + -`
       },
       {
         icon: 'iconfangda',
-        name: 'Zoom in/Zoom out',
+        name: 'Zoom In/Zoom Out',
         value: `${ctrl} + Mouse wheel`
       },
       {
@@ -331,7 +339,7 @@ export const shortcutKeyList = [
       },
       {
         icon: 'iconquanping1',
-        name: 'fit canvas',
+        name: 'Fit Canvas to Screen',
         value: `${ctrl} + i`
       }
     ]
@@ -351,7 +359,7 @@ export const shortcutKeyList = [
       },
       {
         icon: 'icontianjiazijiedian',
-        name: 'Inert child node',
+        name: 'Insert child node',
         value: 'Tab'
       },
       {
