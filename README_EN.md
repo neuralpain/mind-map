@@ -58,8 +58,9 @@ The client version will lag behind the online version. Please use the online ver
 - [x] Support collaborative editing
 - [x] Support demo mode
 
-The following plug-ins are officially provided, which can be introduced on demand according to demand (the high probability that a certain function will not take effect is because you have not introduced a corresponding plug-in), please check the documentation for specific usage methods:
-
+> [!NOTE]
+> The following plug-ins are officially provided, which can be introduced according to the demand (the probability that a certain function will not take effect is because you have not introduced a corresponding plug-in). Please check the documentation for specific usage methods:
+>
 > - RichText (node rich text plug-in),
 > -  Select (mouse multi-select node plug-in)
 > - Drag (node drag-and-drop plug-in)
@@ -135,27 +136,27 @@ Want to achieve more functions? You can view the development documentation.
 
 # License
 
-MIT. `mind-map` It can be used commercially at will while retaining the copyright notice. If you don't want to keep it, you can contact the author.
+MIT. `mind-map` can be used commercially, as you like, as long is it retains the copyright notice. If you want a custom license for use within your organization, you can contact the author.
 
 # WeChat Exchange Group
 
-There are a large number of people in the group chat, and you cannot join the group through the QR code. You can add WeChat `wanglinguanfang` to pull you into the group. Questions related to mind maps can be asked in the group, so there is no need to chat with the author privately.
+Because of the large number of people in the group chat, you will not be able to join via QR code. You can add the WeChat account of `wanglinguanfang` and ask to be added to the group. Questions related to mind maps can be asked in the group, so there is no need to chat with the author privately.
 
 # Star the project
 
-If you like this project, you are welcome to order a star, which is very important to us.
+If you like this project, you are welcome to give it a star, which is very important to us.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=wanglin2/mind-map&type=Date)](https://star-history.com/#wanglin2/mind-map&Date)
 
 # About customization
 
-If you have personalized commercial customization needs, you can contact us. We provide paid development services, regardless of front-end, back-end, or deployment, we can help you get it done in one stop.
+If you have personalized commercial customization needs, you can contact us. We provide paid development services, so whether it be front-end, back-end, or deployment, we can help you get it done in one stop.
 
 # Invite the author for a cup of coffee
 
-Open source is not easy. If this project is helpful to you, you can consider asking the author for a cup of coffee. Your support is the biggest motivation for developers to continue to maintain~
+Open source is not easy. If this project is helpful to you, you can consider buying the author a cup of coffee. Your support is the biggest motivation for developers to continue maintenance!
 
-> It is recommended to use Alipay, but WeChat cannot get the avatar. Please note [Mind Map] for transfer.
+> It is recommended to use Alipay, but an avatar is not available for WeChat. Please note "Mind Map" in the message/remark when committing the transfer.
 
 <p>
   <img src="./web/src/assets/img/alipay.jpg" style="width: 300px" />
