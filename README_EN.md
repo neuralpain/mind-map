@@ -7,14 +7,14 @@
 
 <h1 align="center">Simple mind map</h1>
 
-[中文](./README.md)｜[English](./README_EN.md)
-
 [![npm-version](https://img.shields.io/npm/v/simple-mind-map)](https://www.npmjs.com/package/simple-mind-map)
 ![npm download](https://img.shields.io/npm/dm/simple-mind-map)
 [![GitHub issues](https://img.shields.io/github/issues/wanglin2/mind-map)](https://github.com/wanglin2/mind-map/issues)
 ![license](https://img.shields.io/npm/l/express.svg)
 [![GitHub stars](https://img.shields.io/github/stars/wanglin2/mind-map)](https://github.com/wanglin2/mind-map/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/wanglin2/mind-map)](https://github.com/wanglin2/mind-map/network/members)
+
+[中文](./README.md)｜[English](./README_EN.md)
 
 > Chinese name: Mind map of Thoughts. A simple & powerful Web mind map.
 
