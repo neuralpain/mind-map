@@ -16,7 +16,7 @@
 
 [中文](./README.md)｜[English](./README_EN.md)
 
-> Chinese name: Mind map of Thoughts. A simple & powerful Web mind map.
+> Chinese name: 思绪思维导图。一个简单&强大的 Web 思维导图。
 
 This project consists of two parts:
 
